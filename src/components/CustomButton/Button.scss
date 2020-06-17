@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;800&display=swap');
+
+.makey-button-custom {
+    min-width: 130px;
+    min-height: 52px;
+    background-color: white;
+    border-radius: 100px;
+    opacity: 1;
+    padding: 0.2rem 1rem;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    transition: all 0.3s;
+    color: black;
+    cursor: pointer;
+    .icon-container {
+        margin-right: 0.8rem;
+        height: 24px;
+    }
+}
+
+.makey-button-custom:hover {
+    color: #787B84;
+}
+
+.makey-button-custom.type-icon {
+    min-height: unset;
+    min-width: unset;
+    background-color: white;
+    box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+    padding: 0.7rem;
+    .icon-container {
+        margin: 0;
+    }
+}
+
+.makey-button-custom.color-primary.type-primary {
+    background-color: #FFA245;
+    color: white;
+}
+
+.makey-button-custom.color-primary.type-primary:hover {
+    background-color: #FFAA5CB3;
+}
+
+.makey-button-custom.type-secondary {
+    .icon-container svg {
+        fill: #FFA245;
+    }
+}
+
+.makey-button-custom.type-secondary:hover {
+    .icon-container svg {
+        fill: #FFAA5C80;
+    }
+}
+
+.makey-button-custom.color-secondary {
+    background-color: white;
+    color: black;
+}
+
+.makey-button-custom.color-secondary:hover {
+    color: #787B84;
+}
+
+.makey-button-custom.type-secondary {
+    border: 1px solid #D5D9DC;
+}
+
+.makey-button-custom:disabled {
+    background-color: #F5F5F5 !important;
+    color: #D5D9DC !important;
+    border: none;
+    .icon-container svg {
+        fill: #D5D9DC;
+    }
+}

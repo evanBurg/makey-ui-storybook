@@ -1,0 +1,38 @@
+.MuiButtonBase-root.MuiButton-root {
+    border-radius: 100px;
+    box-shadow: unset !important;
+}
+
+.MuiButtonBase-root.MuiButton-root.MuiButton-contained.makey-button.type-primary.color-primary.MuiButton-containedPrimary {
+    color: white;
+    .MuiTouchRipple-root.span {
+        background-color: #FFA245;
+        opacity: .3;
+    }
+}
+
+.MuiButtonBase-root.MuiButton-root.MuiButton-contained.makey-button.type-primary.color-primary.MuiButton-containedPrimary:hover {
+    background-color: #FFAA5CB3;
+    box-shadow: unset;
+}
+
+.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.makey-button.type-secondary.color-secondary.MuiButton-outlinedSecondary {
+    color: black;
+    border: 1px solid black;
+    transition: color 0.3s;
+    .MuiTouchRipple-root.span {
+        background-color: #FFF1E5 !important;
+        opacity: .3;
+    }
+    .MuiSvgIcon-root {
+        fill:#FFA245;
+    }
+}
+.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.makey-button.type-secondary.color-secondary.MuiButton-outlinedSecondary:hover {
+    color: #787B84;
+}
+
+.MuiButtonBase-root.MuiIconButton-root.makey-button.type-icon {
+    background-color: white;
+    box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+}

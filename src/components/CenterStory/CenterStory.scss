@@ -1,0 +1,30 @@
+.center-story {
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  flex-basis: 100%;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: center;
+  align-self: center;
+  .inner {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+}
+
+.code-container {
+  display: flex;
+  min-height: 95vh;
+  flex-direction: column;
+  padding: 2rem 5rem;
+  background-color: #F5F5F5;
+
+  .code-entry{
+    pre {
+      background-color: darken(#F5F5F5, 20);
+      padding: 0.7rem 2rem;
+    }
+  }
+}
