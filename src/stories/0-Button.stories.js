@@ -1,18 +1,15 @@
-import React from 'react';
-import { action } from '@storybook/addon-actions';
-import { Button } from '@storybook/react/demo';
+import React from "react";
+import { Button } from "@material-ui/core";
 
 export default {
-  title: 'Button',
+  title: "Button",
   component: Button,
 };
 
-export const Text = () => <Button onClick={action('clicked')}>Hello Button</Button>;
+export const Default = () => <Button variant="contained">Default</Button>
 
-export const Emoji = () => (
-  <Button onClick={action('clicked')}>
-    <span role="img" aria-label="so cool">
-      😀 😎 👍 💯
-    </span>
+export const Primary = () => (
+  <Button variant="contained" color="primary">
+    Primary
   </Button>
 );
